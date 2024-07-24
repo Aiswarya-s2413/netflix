@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #333030;
+    margin: 0%;
+    font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.background{
+    height: 700px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(background.jpg);
+}
+.header-container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.image-container{
+    height: 40px;
+}
+.image-container img{
+    height: 100%;
+}
+.controls #signin-btn{
+    background-color: rgb(203, 6, 6);
+    color: #ffff;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight:600;
+    cursor: pointer;
+}
+.fa-solid fa-language{
+    color: black;
+}
+.controls .select-language{
+    padding: 7px 10px;
+    color: #ffff;
+    font-weight: 600;
+    border-style: solid;
+    border-color: #ffff;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgba(0, 0, 0, 0.273);
+}
+.intro-container{
+    color: #ffff;
+    text-align: center;
+    padding: 100px;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+h3{
+    font-size: 25px;
+    font-weight: normal;
+    
+}
+h4{
+    font-size: 20px;
+    font-weight:normal;
+}
+.intro-container #emailbox,#faq-div #emailbox{
+    background-color: rgba(0, 0, 0, 0.341);
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px 80px 20px 20px;
+    font-size: 15px;
+}
+.intro-container .start-btn,#faq-div .start-btn{
+    background-color: rgb(212, 8, 8);
+    border-style: none;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: bold;
+    font-size:larger;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.sub-div{
+    background-color: black;
+    height: 600px;
+    display:flex;
+    justify-content:center;
+    margin-top: 8px;
+    padding-top: 50px;
+}
+.sub-div .image-div{
+    height: 400px;
+}
+.sub-div .image-div img{
+    height: 100%;
+}
+.sub-div .text-div{
+    color: #ffff;
+    text-align:left;
+    padding-top: 100px;
+}
+#faq-div{
+    height: 950px;
+    background-color: black;
+    margin-top: 8px;
+    color: #ffff;
+    text-align: center;
+    padding-top: 50px;
+}
+#faq-div .question{
+    background-color: #333030;
+    width:70%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#faq-div .question{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+#faq-div .question:hover{
+    background-color:#524d4d ;
+}
+.footer{
+    height: 400px;
+    background-color: black;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+}
+.footer li,.footer a,.footer p{
+    color: #ffff;
+    list-style-type: none;
+    line-height: 40px;
+    font-size: 15px;
+}
+.footer .select-language{
+    padding: 7px 10px;
+    color: #ffff;
+    font-weight: 600;
+    border-style: solid;
+    border-color: #ffff;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgba(0, 0, 0, 0.273);
+}
+
+
+
+
+
+
